@@ -13,4 +13,8 @@ class Listing
         self.price -= self.price*percentage
     end
 
+    def self.all
+        @@all
+    end
+
 end
