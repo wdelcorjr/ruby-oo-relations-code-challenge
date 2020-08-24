@@ -2,6 +2,8 @@ class Listing
     attr_reader :location
     attr_accessor :status, :price
 
+    @@all = []
+
     def initialize(location, price, status="for sale")
         @location = location
         @price = price
